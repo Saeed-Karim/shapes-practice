@@ -7,6 +7,17 @@
 
 public interface Shape {
 
+    double area(double a);
+
+
+    double perimeter(double p);
+
+
+
+
+
+
+
     //Create an abstract method called as area and returns a double
 
 

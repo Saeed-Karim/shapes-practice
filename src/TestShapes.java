@@ -8,7 +8,12 @@ import java.util.ArrayList;
  */
 
 public class TestShapes {
+
+
     public static void main(String[] args) {
+
+
+
 
         /*
         This will be our actual program that we request some information from user to create 3 objects
@@ -40,6 +45,30 @@ public class TestShapes {
 
          Circle has the largest area as 50.24
          */
+
+
+        Rectangle rectangle = new Rectangle();
+        Square square = new Square();
+        Circle circle = new Circle();
+
+
+        rectangle.setWidth(5.5);
+        rectangle.setHeight(6.0);
+        square.setSide(2.5);
+        circle.setRadius(4.0);
+
+
+//        System.out.println(rectangle);
+//        System.out.println(square);
+//        System.out.println(circle);
+
+
+
+
+
+
+
+
 
 
     }
