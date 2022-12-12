@@ -6,13 +6,11 @@
  */
 
 public interface Shape {
+    double area();
 
-    double area(double a);
+    double perimeter();
 
-
-    double perimeter(double p);
-
-
+}
 
 
 
@@ -23,4 +21,4 @@ public interface Shape {
 
     //Create an abstract method called as perimeter and returns a double
 
-}
+
